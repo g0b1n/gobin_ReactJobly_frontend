@@ -1,0 +1,96 @@
+/* General styles for the containers */
+.company-details-container,
+.company-container,
+.job-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Styles for search forms */
+.search-form {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-form input[type='text'] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for list items */
+.company-item,
+.job-item {
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-item:last-child,
+.job-item:last-child {
+    border-bottom: none;
+}
+
+.company-item a,
+.job-item a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.company-item p,
+.job-item .job-info {
+    margin: 5px 0;
+}
+
+.job-info h3 {
+    margin: 0;
+}
+
+.job-info p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Button styles for applying to jobs */
+.job-item button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.job-item button:hover {
+    background-color: #218838;
+}

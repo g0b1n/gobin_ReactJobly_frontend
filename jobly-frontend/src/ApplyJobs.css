@@ -1,0 +1,42 @@
+.apply-job-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.apply-job-container h1 {
+    color: #333;
+}
+
+.apply-job-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.apply-job-container label {
+    font-weight: bold;
+}
+
+.apply-job-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.apply-job-container button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apply-job-container button:hover {
+    background-color: #0056b3;
+}
